@@ -1,0 +1,25 @@
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.thumb {
+	height: 200px;
+	width:250px;
+	float:left;
+	vertical-align: middle;
+}
+
+.content {
+	height: 230px;
+}
+
+a {
+	float:right;
+	background-color: #373a3c;
+	border-color: #373a3c;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}

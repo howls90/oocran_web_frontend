@@ -1,0 +1,22 @@
+img {
+    margin: auto;
+    width: 100%;
+    max-width: 350px;
+    max-height:100%;
+}
+
+.blocks{
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+    height: 300px;
+    align-items: center;
+    width: 30%;
+}
+
+.container {
+	margin-bottom: 50px;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>News</h1>
+  <div *ngFor="let tile of tiles">
+    <div class="thumb">
+      <img src="../assets/images/release.jpg">
+    </div>
+    <div style="height: 230px">
+      <h1>{{tile.title}}</h1>
+      <h4>{{tile.date}}</h4>
+      <p>{{tile.text}}</p>
+      <a routerLink="/news/{{tile.id}}">Read more</a>
+    </div>
+    <hr>
+  </div>
+</div>

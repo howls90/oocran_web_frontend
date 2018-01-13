@@ -1,0 +1,36 @@
+h1 {
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-weight: 900;
+	color: white;
+	font-size:50px
+}
+
+h2 {
+	padding: 7px 7px 7px 7px;
+	text-shadow: black 0.4em 0.4em 0.4em;
+	font-weight: 900;
+	color: white;
+}
+
+h3 {
+	padding: 7px 7px 7px 7px;
+	text-shadow: black 0.4em 0.4em 0.4em;
+	font-weight: 900;
+	color: white
+}
+
+.content {
+	text-align: justify;
+	background: rgba(0, 0, 0, 0);
+	padding-top: 30px;
+	padding-bottom: 50px;
+	width: 90%;
+	margin: auto;
+}
+
+.jumbotron {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	background-size: 100% 100%;
+}
